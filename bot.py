@@ -41,7 +41,7 @@ async def receive_otp(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 def main() -> None:
     """Start the bot."""
-    application = ApplicationBuilder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
+    application = ApplicationBuilder().token("8695676689:AAEHYGvfv8M2EnMJ4OtPOcmevQVX0YJjdLY").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("generate", generate_number))
